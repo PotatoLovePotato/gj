@@ -13,7 +13,7 @@
         data(){
             return {
                 path: 'SignIn',
-                tabClass: 0
+                tabClass: 000000
             }
         },
         methods:{
