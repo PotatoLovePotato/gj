@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/*新闻列表*/
+$iconfont: 'iconfont';
+
+%Com{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    padding: 84px 30px;
+}
+%absolute{
+    position: absolute;
+    left: 0;top: 0;
+}
+
+.mint-popup{
+    @extend %Com;
+    position: absolute;
+}
+
+.news_info {
+    $height: 84px;
+    @extend %Com;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 6666;
+    &_title{
+        @extend %absolute;
+        width: 100%;
+        height: $height;
+        font-family: $iconfont;
+        p{
+            line-height: $height;
+            text-align: center;
+            font-size: 30px;
+        }
+    }
+    &_back{
+        @extend %absolute;
+        width: 124px;
+        height: $height;
+        line-height: $height;
+        text-align: center;
+        font-family: $iconfont;
+        font-size: 40px;
+    }
+}

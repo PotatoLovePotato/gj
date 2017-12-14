@@ -1,0 +1,60 @@
+.list_foot a {
+  color: #333;
+}
+
+.news_wrap {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  box-sizing: border-box;
+  padding: 84px 30px;
+  overflow-y: scroll;
+}
+
+.news_wrap li h4 {
+  font-size: 36px;
+  color: #333;
+  padding: 16px 0;
+}
+
+.news_wrap li h4 a {
+  color: #666;
+}
+
+.news_wrap li p {
+  font-size: 24px;
+  color: #666;
+  padding: 16px 30px 60px;
+}
+
+.notmore {
+  height: 84px;
+  line-height: 84px;
+  background: rgba(238, 235, 235, 0.986);
+  text-align: center;
+  position: relative;
+}
+
+.notmore span {
+  background: rgba(238, 235, 235, 0.986);
+  position: relative;
+  z-index: 2;
+  padding: 0 12px;
+  font-size: 32px;
+  color: #333;
+}
+
+.notmore:after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #c9c7c7;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+ 
+
+ /*# sourceMappingURL= newslist.css.map */
